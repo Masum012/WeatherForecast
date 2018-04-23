@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.weatherforecast.ForecastActivity">
+
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date : "/>
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/date_label"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"/>
+
+
+
+
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/date_label"
+        android:id="@+id/day_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day : "/>
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/date"
+        android:layout_toRightOf="@+id/day_label"
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"/>
+
+
+
+
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/day_label"
+        android:id="@+id/high_temperature_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Temperature : "/>
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/day"
+        android:layout_toRightOf="@+id/high_temperature_label"
+        android:id="@+id/high_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp"/>
+
+
+
+
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/high_temperature_label"
+        android:id="@+id/low_temperature_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lowest Temperature : "/>
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/high_temperature_label"
+        android:layout_toRightOf="@+id/low_temperature_label"
+        android:id="@+id/low_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp"/>
+
+
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/low_temperature_label"
+        android:id="@+id/forecast_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forecast : "/>
+    <TextView
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/low_temperature_label"
+        android:layout_toRightOf="@+id/forecast_label"
+        android:id="@+id/forecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp"/>
+
+</RelativeLayout>
